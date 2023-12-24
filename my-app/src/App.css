@@ -1,0 +1,333 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+.navbar{
+    padding: 20px 0px;
+}
+.navbar input{
+    width: 100%;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+}
+
+/* ============BANNER============== */
+.banner{
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+.banner .img-bg{
+    width: 100%;
+    height: 744px;
+}
+.banner-btn-left{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.banner-btn-right{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 100%;
+    width: 100%;
+}
+.btn-watch{
+    width: 223px;
+    height: 76px;
+    border: 3px solid #FF0000;
+    border-radius: 5px;
+    
+}
+.btn-watch span{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.btn-now{
+    float: right;
+    background-color: #FF0000;
+    
+}
+.btn-later{
+    float: left;
+    background-color: transparent;  
+}
+.btn-now img{
+    max-width: 31px;
+    height: 31px;
+    margin-bottom: 5px
+}
+.btn-later img{
+    max-width: 20px;
+    height: 20px;
+    margin-bottom: 7px
+}
+.banner-text{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 36%;
+}
+.banner-text p{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.banner-text button{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    height:  44px;
+    margin-right: 7px;
+}
+.banner-text button span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000; 
+}
+.btn-action{
+    width: 73px;
+}
+.btn-adventure{
+    width:  106px;
+}
+.btn-science{
+    width:  142px;
+}
+.text-small{
+    padding-right: 50px;
+}
+.icon-bottom-banner{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 96%;
+    left: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-btn-left {
+        top: 15%;
+    }
+    .banner-btn-right {
+        top: 15%;
+    }
+    .banner-text{
+        top: 50%;
+    }
+  }
+@media only screen and (max-width: 430px) {
+    .banner-btn-right {
+        top: 30%;
+    }
+    
+  }
+
+/* ============RECENTLY UPDATED============== */
+.recently h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.recently-text b{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.recently-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+}
+.ellipse{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: grid;
+    place-items: center;
+}
+.recently-text p b {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 118px;
+    display: inline-block;
+}
+
+
+/* ============TRENDING============== */
+
+.title-h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.title-h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 10px 
+}
+.trending button{
+    background-color: #FF0000;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    height: 40px;
+}
+.trending button span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left; 
+    color: #FFFFFF;   
+}
+.trending-name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 20px;
+}
+.trending-img{
+    position: relative;
+}
+.trending-clock{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 14%;
+}
+.trending-star{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 5%;
+    right: 0;
+}
+
+/* =============new-release-movie============= */
+
+.btn-nrm-clock{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 32px;
+    border: 1px solid #FF0000;
+}
+.btn-nrm-clock span{
+    max-width: 53px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.btn-hd{
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    height: 32px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+.nrm-name span{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-5ths {
+  width: 20%;
+  float: left;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-5ths {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-5ths {
+    width: 20%;
+    float: left;
+  }
+}
